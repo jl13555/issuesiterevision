@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+	background-color: black;
+	font-family: "Roboto", sans-serif;
+	padding: 0;
+	margin: 0;
+	color: floralwhite;
+}
+
+.menuContainer{
+	display: flex;
+	gap: 30px;
+	padding-left: 30px;
+	padding-top: 30px;
+	position: fixed;
+	height: 60px;
+	font-size: 16pt;
+	opacity: .85;
+	font-weight: bold;
+	background-color: black;
+	width: 100%;
+}
+
+a, a:visited, a:active {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover{
+	color: #A6866A;
+}
+
+.header{
+	background-image: url(header.jpeg);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+	padding-left: 40%;
+	padding-right: 20px;
+	font-weight: bolder;
+	font-size: 48pt;
+	background-size: cover;
+	background-position: center;
+	text-align: right;
+	color: white;
+}
+
+.solutionsHeader{
+	background-image: url(header2.jpeg);
+	padding-top: 150px;
+	padding-bottom: 50px;
+	margin-bottom: 100px;
+	padding-right: 50%;
+	padding-left: 20px;
+	font-weight: bolder;
+	font-size: 48pt;
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+	color: white;
+}
+
+.learnHeader{
+	background-image: url(header3.jpeg);
+	padding-top: 100px;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+	padding-left: 50%;
+	padding-right: 20px;
+	font-weight: bolder;
+	font-size: 48pt;
+	background-size: cover;
+	background-position: center;
+	text-align: right;
+	color: white;
+}
+
+.content{
+	font-weight: lighter;
+}
+
+.mainbody{
+	font-size: 24pt;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin: 0px;
+}
+
+.subtitle{
+	border-bottom: 5px solid #A6866A;
+}
+
+.statsIntro{
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 1;
+	padding-bottom: 30px;
+	border-bottom: 5px solid #A6866A;
+}
+
+.twoColumnContainer{
+	display: flex;
+	padding-top: 30px;
+	flex-shrink: 1;
+	align-items: center;
+	gap: 30px;
+	padding-bottom: 30px;
+	border-bottom: 5px solid #A6866A;
+}
+
+.twoColumnContainer2{
+	display: flex;
+	flex-shrink: 1;
+	align-items: center;
+	gap: 30px;
+	padding-bottom: 30px;
+}
+
+.halfImage{
+	width: 50%;
+}
+
+.buttonDiv{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.button{
+	background-color: floralwhite;
+	border: 2px solid #3a3b3c;
+  	color: black;
+  	margin-top: 30px;
+  	margin-bottom: 100px;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 20px;
+  	font-weight: bolder;
+  	transition-duration: 0.4s;
+}
+
+.button:hover{
+	background-color: black;
+	color: white;
+}
+
+.linkContainer{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 50%;
+}
